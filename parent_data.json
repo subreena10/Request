@@ -1,0 +1,717 @@
+{
+    "course": {
+        "id": "100",
+        "name": "More Exercise Questions",
+        "logo": "https://bit.ly/1h4FwSY",
+        "notes": null,
+        "days_to_complete": "45",
+        "short_description": "We will solve more questions related to Python.",
+        "type": "html",
+        "course_type": null,
+        "lang_available": [
+            "en"
+        ],
+        "exercises": [
+            {
+                "id": "4319",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "More Exercises",
+                "slug": "MoreExercise__exercises/intro_md",
+                "sequence_num": 0,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Humne abhi tak `python` ke kaafi saare buniyadi siddhant seekh liye hain. Ab hum agli kuch exercises kar ke inn siddhanton ko aur gehrai mein samjhenge.\n\n\n\nAbhi tak saari exercises mein aapko chote chote steps mein bataya hua tha. Lekin Exercise 3, 4, 5,6 mein humne aapko sirf kuch problems di hain. Unko solve karne ki tarkeebein aur steps aapko sochne hain. Ekdum asli duniya ke programmers ki tarah ;-) Yeh thoda mushkil lag sakta hai. Lekin don\u2019t worry, aapko bahot kuch seekhne ko milega :D\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4322",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 1",
+                "slug": "MoreExercise__exercises/question1_md",
+                "sequence_num": 1,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question1.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "1 se 1000 tak saare numbers print karne ka `loop` likho. Lekin \n\n\n\n* Agar number 3 se divisible hai toh `\"nav\"` print karvao.\n\n* Agar number 7 se divisible hai toh `\"gurukul\"` print karvao.\n\n* Agar number 21 se divisible hai toh `\"navgurukul\"` print karvao.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4323",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 2",
+                "slug": "MoreExercise__exercises/question2_md",
+                "sequence_num": 2,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Iss program mein hum students ki ginti aur ek student ke kharche se hisaab se pure NavGurukul ka ek mahine ka kharcha nikalenge\n\n\n\n`input` ka use kar ke do values ka `input` lo:\n\n\n\n* Number of students\n\n* Ek student ka kharcha\n\n\n\nIss ke hisaab se total kharcha nikalein. Agar total kharcha 50000 (50 hazar) ya usse kam hai toh print karein `\"Hum budget ke andar hain\"` nahi toh print karo ki hum budget ke bahar hain.\n\n\n\n*Note: Inn exercises mein aapko `variables` ke naam apne aap soch kar likhne hain*\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4324",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 3",
+                "slug": "MoreExercise__exercises/question3_md",
+                "sequence_num": 3,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question3.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Jaise hum list ki length nikalne ki len ka use karte aa rahe hain, waise hi hum `strings` ki length nikalne ke liye len ka use kar sakte hain.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "string_name = \"Shakrudin\"\nprint (len(string_name))",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Yahan print command 9 print karegi kyunki `\"Shakrudin\"` mein 9 letters ya charecters hai.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "string_name = \"Rishabh Verma\"\nprint (len(string_name))",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Yahan 13 print hoga kyunki \"Rishabh\" ke 7 letter aur \"Verma\" ke 5 letter ki ilava beech ka space bhi ek character hai.\n\n\n\nAur jaise hum `in` ka use kar ke yeh dekh sakte hain ki koi item list mein hai ya nahi. Waise hi hum in `string` ke saath bhi use kar sakte hain. Jaise:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "string_name = \"navgurukul\"\nif \"n\" in string_name:\n    print (\"n hai\")\nelse:\n    print (\"n nahi hai\")",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Wahan hum yeh dekh rahe hain ki `string_name` `variable` mein `n` hai ya nahi. Basically `in` ka use kar ke hume ek boolean milta hai.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "print (\"n\" in string_name:)\nprint (type(\"n\" in string_name))",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Yahan pehli command `True` print karegi. Kyunki `True` or `False` boolean hote hain, hum inko if `statement` mein use kar sakte hain. agar hum iska data type dekhenge toh woh bhi \"bool\" dikhayega Aapko agli kuch exercises mein iski zaroorat padegi ;-)\n\n\n\nHum online account banate wakt bahot jagah password set karte hain. Jaise aapne slack aur gmail ka account banate hue bhi apne passwords set kare honge. Humare accounts ke passwords secret hote hain jo kisi ko pata nahi lagna chaiye. Yeh jitne complex honge kisi aur ke liye guess karna utna mushkil ho jayega. Jaise`'rahulverma'` ko guess karna aasan hai, lekin `'rahul$%verma12!'` ko guess karna mushkil hai. Iss vajah se aap jab bhi online account banaoge toh ek acha sakht password set karna important hota hai.\n\n\n\nHum iss program mein ek password checker banayenge jo yeh sunchit karega ki humara password strong hai.\n\n\n\n* Pehle user se ek password ka `string` `input` lijiye.\n\n* Fir check kariye ki user ka password sakht hai ya nahi. Ek sakht password ko yeh sab rule follow karne chaiye:\n  1. Kam se kam uski length 6 honi chaiye\n  2. Jada se jada length 16 se jyada na ho\n  3. Kam se kam ek dollar ka sign ($) hona chaiye\n  4. Kam se kam password mein 2 ya 8 hona chaiye\n  5. Password mein capital A ya capital Z hona chaiye\n\n* Agar password yeh rules follow kar raha hai toh \"Strong Password\" print karo, nahi toh \"Weak Password\" type karo\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4325",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 4",
+                "slug": "MoreExercise__exercises/question4_md",
+                "sequence_num": 4,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question4.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "`input` ka use kar ke 3 alag `variables` mein 3 `integers` ka `input` lein. `Input` lene ke baad inn 3 mein se sabse bade number ko print karo\n\n\n\n*Note: Isme aap `loops` ka use nahi kar sakte.*\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4331",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 5",
+                "slug": "MoreExercise__exercises/question5_md",
+                "sequence_num": 5,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question5.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Ek number ka factorial 1 se leke uss number tak ke saare numbers ko ek saath multiply karke nikalta hai.\n\n\n\n* Jaise 3 ka factorial 6 hai. Kyunki `1 * 2 * 3` ko calculate karke 6 aata hai\n\n* 4 ka factorial 24 hai. Kyunki `1 * 2 * 3 * 4` ko calculate karke 24 aata hai\n\n* Aise hi 7 ka factorial 5040 hai. Kyunki `1 * 2 * 3 * 4 * 5 * 6 * 7` ko calculate karke 5040 aata hai\n\n\n\nAb aap ek program likhoge jo ki user se ek `integer` `input` lega aur fir uska factorial print karega. Agar user `3` dalega to `6` print karega, `7` dalega toh `5040` print karega aur aise hi dusre numbers ke lie.\n\n\n\n*Note: Abhi ke liye yeh soch lo ki user sirf positive `integers` hi dalega. Negative `integers` kabhi nahi dalega.*\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4326",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 6",
+                "slug": "MoreExercise__exercises/question6_md",
+                "sequence_num": 6,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question6.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Socho aapko paas ek list hai jisme kuch values baar baar aa rahi hain. Ek aisa `code` likho jisse aap ek nayi list banayein jisme iss list ki items ek ek baar hi aaye. Jaise:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "string_list = [\"Rishabh\", \"Rishabh\", \"Abhishek\", \"Rishabh\", \"Divyashish\", \"Divyashish\"]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Aapke `code` ko iss `string`_list se ek nayi list banani chaiye jo yeh hogi:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "new_list = [\"Rishabh\", \"Abhishek\", \"Divyashish\"]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Yeh list dekhiye isme saare naam ek ek baar aa rahe hain. Farak nahi padta ki pichli list mein kitne baar aa rahe the. Samajhne ke liye ek aur example padho\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "string_list = [\"Delhi\", \"Delhi\", \"Mumbai\", \"Mumbai\", \"Delhi\", \"Chennai\", 'Chennai']",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Isse aapke `code` ko yeh nayi list banani hogi:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "new_list = [\"Delhi\", \"Mumbai\", \"Chennai\"]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Iss nayi list mein sirf saare shehron ka naam sirf ek baar aa raha hai.\n\n\n\nYeh rahi aapki pehli items repeat hone waali list:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "string_list = [\"Empathy\", \"Empathy\", \"Kindness\", \"Kindness\", \"Compassion\", \"Humble\", \"Humble\"]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Iss upar di gayi list ka use kar `code` likho.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4327",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 7",
+                "slug": "MoreExercise__exercises/question7_md",
+                "sequence_num": 7,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question7.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Socho aapke paas 2 lists hain. Aapne aisa `code` likhna hain jisse ek nayi list banne jisme inn dono lists ke woh item hone chaiye ho dono list mein aa rahe hain. Socho aapki do list yeh hain:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "list1 = [1, 342, 75, 23, 98]\nlist2 = [75, 23, 98, 12, 78, 10, 1]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Inn dono list se aapki nayi list yeh banni chaiye:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "new_list = [1, 23, 75, 98]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Iss nayi list mein sirf `1`, `75` aur `98` isliye hain kyunki aur koi bhi items dono lists mein nahi aa rahi. Dusri saari items ya toh pehli list mein aa rahi hai ya dusri mein.\n\n\n\n*Note: Aapka yeh `code` kitne bhi items ki list pe kaam karna chaiye. Aur dono lists ki length alag bhi ho sakti hai.*\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4328",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 8",
+                "slug": "MoreExercise__exercises/question8_md",
+                "sequence_num": 8,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question8.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Socho aapke paas do lists hain. Ab aapko nayi list banani hai jisme dono lists ke elements hone chaiye. Lekin yeh dhyan mein rakhna hai ki dono lists ke saare elements sirf ek-ek baar hi hone chaiye. Agar humare paas yeh do lists hain:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "list1 = [1, 5, 10, 12, 16, 20]\nlist2 = [1, 2, 10, 13, 16]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Toh humari nayi list yeh hogi:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "new_list = [1, 2, 5, 10, 12, 13, 16, 20]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Yahan dekho ki dono lists ke items ek ek baar aa rahe hain.\n\n\n\n* Jaise dono lists mein 1 aa raha tha, lekin nayi list mein ek hi baar aa raha hai.\n\n* Aise hi 10 aur 16 bhi dono list mein aa raha tha, lekin nayi list mein ek hi baar hai\n\n* Aur 5, 2, 12, 13 aur 20 mein se kuch pehli list mein the aur kuch dusri mein, lekin\n\n\n\nSabhi numbers nayi list mein ek hi baar aayenge.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4329",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 9",
+                "slug": "MoreExercise__exercises/question9_md",
+                "sequence_num": 9,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question9.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Harshad numbers aise number hote hain jo apni digits ke sum se dhang se divide hote hain. Dhang se divide hone ka matlab ki remainder 0 aata hai. Jaise 42 ek Harshad number hai kyunki 4 + 2 = 6 aur 42 ko 6 se vidie kar ke remainder aata hai\n\n\n\nAise hi 18, 21 aur 24 bhi harshad number hai kyunki 1 + 8 = 9 aur 18 ko 9 se divide kar ke remainder 0 hai. Aise hi 1, 2, 3, 4, 5, 6, 7, 8, 9 saare harshad number hain kyunki inki digits ka sum khud yeh number hain aur yeh apne aap se divide ho jate hain.\n\n\n\nEk number ke digits nikalne ka `code` yeh hai:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "x = 42\nx_digits = list(str(x))",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Yahan humne list function mein x ko `string` mein type cast kar ke de diya. Toh ab yeh har 42 ke alag alag number se list bana dega. `x_digits` mein [\"4\", \"2\"] list hogi. Iss list mein saare digits `string` ki form mein hogi, aap unko firse `integer` mein convert kar sakte ho\n\n\n\n\nEk function likho `is_harshad_number` jo ek number parameter ki tarah le aur fir agar woh number harshad number hai toh ek `boolean` (`True` agar harshad number hai, `False` agar nahi hai toh) return kare.\n\n\n\nFir iss function ka use kar ke 1 se 1000 ke beech mein saare harshad number print karo.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4330",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 10",
+                "slug": "MoreExercise__exercises/question10_md",
+                "sequence_num": 10,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question10.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "`Python` mein hum ek `loop` ke andar `loop` bhi chala sakte hain Sochiye humare paas ek list hai jisme aur list hain jinme `integers` hain. Kuch aise:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "big_list = [[1,2,3], [5,8,9], [4,3,77,521,31,311]]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Iss list se agar humne saare numbers ko ek ek kar ke print karna hai toh hum kuch aisa `code` likh sakte hain:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "big_list = [[1,2,3], [5,8,9], [4,3,77,521,31,311]]\ncounter1 = 0\nwhile counter1 < len(big_list):\n    small_list_length = len(big_list[counter1])\n    counter2 = 0\n    while counter2 < small_list_length:\n        print (big_list[counter1][counter2])\n        counter2 = counter2 + 1\n    counter1 = counter1 + 1\n    print ('-----')",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Iski `output` kuch aisi aayegi:\n\n\n\n```\n1\n2\n3\n-----\n5\n8\n9\n-----\n4\n3\n77\n521\n31\n311\n```\n* Yahan pehle woh `for small_list in big_list` wala `loop` chala ke uski pehli iteration mein pahunchta hai.\n\n* Fir jab small_list ki value mein pehli list, [1,2,3] aati hai uspe pura dusra `loop` chalta hai\n\n* Dusra `loop` poora chalne ke baad print `-----` line chalti hai aur fir yeh `code` pehle `loop` mein jaata hai\n\n* Fir `small_list` ki value mein `[5,8,9]` jaata hai aur fir pura andar waala `loop` chalta hai.\n\n\n\nIss `code` ko `python` visualizer (\n\n[www.`python`tutor.com\n](http://www.pythontutor.com)\n) mein chala ke ache se samjho\n\n\n\n\nQuestion\n\nSocho aapke paas ek school ki class mein har student ke har subject ke marks hain. Jaise\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "marks = [[45, 21, 42, 63], [12, 42, 42, 53], [42, 90, 78, 13], [94, 89, 78, 76], [87, 55, 98, 99]]",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Yeh ek list mein andar aur lists hain. Andar waali list mein har bache ke saare subjects mein marks hain. Ek `max_marks` naam ka function banao jo ki ek aisi list le aur har students ke maximum marks print kare.\n\n\n\nJaise agar main aapke `max_marks` function ko upar waali list ke saath call karunga ,\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "max_marks(marks)",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Toh uski `output` yeh honi chaiye:\n\n\n\n```\n63\n53\n90\n94\n99\n```\nDekhiye ki har line har student ke maximum marks print hue hain.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4332",
+                "parent_exercise_id": "4319",
+                "course_id": "100",
+                "name": "Question 11",
+                "slug": "MoreExercise__exercises/question11_md",
+                "sequence_num": 11,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/exercises/question11.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Google jaise bade search engine ek web page pe saare text ko samajhte hain. Fir aap kuch bhi search karo, toh google sahi webpages dikha deta hai. Inn sab kaam ke liye google ko ek page se saare words nikalne padte hain. Hume pehle ek poore paragraph mein se words nikalne hain. Iske liye pehle `strings` mein se hume words nikalne padenge. Socho aapke paas ek `string` hai.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "sentence = \"NavGurukul is an alternative to higher education reducing the barriers of current formal education system\"",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Aapne ek `break_into_words` naam ka function likhna hai, jo ek parameter lega jisme ek `string` hoga. Isko jab hum ek words ka `string` denge. Jaise break_into_words(sentence) doge toh usko ek words ki list return karni hai.\n\n\n\nJaise aapke `break_into_words(sentence)` ki `output` yeh honi chaiye:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "['NavGurukul', 'is', 'an', 'alternative', 'to', 'higher', 'education', 'reducing', 'the', 'barriers', 'of', 'current', 'formal', 'education', 'system']",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Hint: `Python` mein `strings` bhi list ki tarah hote hain. Jaise:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "words = \"navgurukul is great\"\ncounter = 0\nwhile counter < len(words)\n    print (words[counter])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`\n\n\n\nIss `loop` mein har iteration mein i ki value ek ek character se update hogi. Ek baar iss `code` ko `python` visualizer mein run kar ke dhang se samajh lo.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4320",
+                "parent_exercise_id": "4320",
+                "course_id": "100",
+                "name": "Debugging Part 3",
+                "slug": "MoreExercise__debugging-part3/debugging-intro_md",
+                "sequence_num": 100,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/debugging-part3/debugging-intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Debugging\n\nAb iss part mein hum alag alag already likhe hue `code` ko debug kar ke sahi karenge :)\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4333",
+                "parent_exercise_id": "4320",
+                "course_id": "100",
+                "name": "Pass by Reference and Functions",
+                "slug": "MoreExercise__debugging-part3/debugging-question1_md",
+                "sequence_num": 101,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/debugging-part3/debugging-question1.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Iss program ko run karo aur dekho ki num_list aur num_list_sub_20 ki value same aa rahi. Iss `code` ko ais chane karo jisse hume num_list ki intial value bhi mil jaye.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def numbers_less_than_twenty(list):\n  counter = 0\n  while counter < len(list):\n    item = list[counter]\n    if item > 20:\n      list.remove(item)\n    else:\n      counter += 1\n  return list\n\nnum_list = [12, 312, 42, 123, 5, 12, 53, 75, 123, 62, 9]\n\nnum_list_sub_20 = numbers_less_than_twenty(num_list)\n\nprint (\"Initial list\", num_list)\nprint (\"List that doesn't contain numbers greate than 20\", num_list_sub_20)",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "4334",
+                "parent_exercise_id": "4320",
+                "course_id": "100",
+                "name": "Conditionals, Loop and Variable Naming",
+                "slug": "MoreExercise__debugging-part3/debugging-question2_md",
+                "sequence_num": 102,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/debugging-part3/debugging-question2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Yeh rock paper scissors game ka program hai. Iss game ko aap computer ke against kheloge. Iss game ke 3 rules hai\n\n\n\n* Rock Paper se haar jata hai\n\n* Paper Scissors se haar jaata hai\n\n* Aur, Scissors Rock se.\n\n\n\nAppko pehle rock,paper ya scissors mei se chose karna hoga. Aur uske baad computer randomly inme se ek option chose karega. Firr, upar diye gaye rules ke hisab se result aayega. Jaise:\n\n\n\n\n* Agar aapne \"Rock\" chose kiya aur computer ne \"Scissors\"\n\n* To aap jeet jaoge kyunki \"Rock\" \"Scissors\" ko hara deta hai. ( Rule 3 )\n\n\n\nAap iss game ke rules iss\n\n\n\n"
+                    },
+                    {
+                        "type": "youtube",
+                        "value": "d1ZduiNyvcM"
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "se seekh sakte hai.\n\n\n\nTopics covered:\n\n\n\n* semantic/syntactic problems in if/else\n\n* semantic `error` in while conditions\n\n* `errors` in `variable` naming\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "from random import randint\n\ndef win():\n    print ('You win!')\n\ndef lose():\n    print ('You lose!')\n\nwhile False:\n    player_choice = input('What do you pick? (rock, paper, scissors)')\n    player_choice.strip()\n    random_move = randint(0, 2)\n    moves = ['rock', 'paper', 'scissors']\n    computer_choice = option[random_move]\n\n    if player_choice = computer_choice:\n        print ('Draw!')\n    elif  == 'rock' and coMp == 'scissors':\n        win()\n    elif  == 'paper' and comp == 'scissors':\n        lose()\n    elif playe == 'scissors' and comp == 'paper':\n        win()\n    elif player == 'scissors' and Comp == 'rock':\n        lose()\n    elif payer == 'paper' and computer == 'rock':\n        win()\n    elif player ==  and comp == :\n        lose()\n    aGain = input('Do you want to play again? (y or n)').strip()\n    if again == 'n':\n        break",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "4335",
+                "parent_exercise_id": "4320",
+                "course_id": "100",
+                "name": "Cipher 1.0",
+                "slug": "MoreExercise__debugging-part3/debugging-question3_md",
+                "sequence_num": 103,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/debugging-part3/debugging-question3.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Apne simple se message ko aise change karna jisse koi dusra insaan usse samajh na paye usse encryption bolte hai. Encryption karne ke bhot sare ways hote hai. Hum cipher wheel use karenge. Cipher wheel mei hum her character ko kissi number se aage shift kar dete hai. Jaise:\n\n\n\nHum iss cihper wheel mein her character ki value ko 2 se increase kar denge. Aisa karne ke liye hum chars aur shifted_chars array ka use karenge.\n\n\n\nExample:\n\n\n\n```\nplain_message = \"navgurukul\"\niska encrypted text aisa hoga => pcxiwtwmwn\n```\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "chars =         ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']\nshifted_chars = ['c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','a','b']",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "```\nchars[13] = 'n'\nshifted_chars[13] = 'p'\nisliye navgurukul ka n ==> p mein change ho gaya.\nchars[0] = 'a'\nshifted_chars[0] = 'c'\nisliye navgurukul ka a ==> c mein change ho gaya.    \ndecryption theek iska ulta hota hai.\n```\nTopics covered\n\n\n\n* function returning the wrong value\n\n* argument passed to the function but never used.\n\n* for `loop` itterates over wrong `string`\n\n* semantic/syntactic problems in if/else\n\n\n\nNeeche yeh program diya hua hai, isko sahi kar ke ek nayi `file` mein submit karo.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "# Cipher wheel with a function for finding an element in a list\n\n# find_in_list function defined here but not called\ndef find_in_list(query, mainlist):\n# this function is used to find the position of the \"query\" in the \"mainlist\". If \"query\" is in the list then it returns its position, otherwise it returns None\n    mainlist_len = len(query)\n    range_for_loop = range(mainlist_len)\n    index = None\n    for i in range_for_loop:\n        element = mainlist[i]\n        if element = query:\n            index = i\n    return i\n# this should return the position of the \"query\" in the \"mainlist\"\n\n\nchars =         ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']\nshifted_chars = ['c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','a','b']\n\n# encrypt_message function defined here but not called\ndef encrypt_message(plain_msg):\n# this fucnction takes \"plain_msg\" as an argument and print/return the encrypted message. The \"plain_msg\" is tranfered into \"encrypted_msg\" using \"shifted_chars\" list. Example, if plain_msg = \"ng\" then n => p, g => i  and hence encrypted_msg = \"pi\"\n    encrypted_msg = \"\"\n    for character in encrypted_msg:\n      # for character in msg\n        if character in chars:\n            char_index = find_in_list(character, chars)\n            new_char = shifted_chars[char_index]\n            encrypted_msg = encrypted_msg + new_char\n        else:\n            encrypted_msg = encrypted_msg + character\n\n# decrypt_message function defined here but not called\ndef decrypt_message(encrypted_msg):\n# this fucnction takes \"encrypted_msg\" as an argument and print/return the encrypted message. The \"encrypted_msg\" is tranfered into \"decrypted_msg\" using \"shifted_chars\" list. Example, if encrypted_msg = \"pi\" then p => n, i => g  and hence decrypted_msg = \"ng\"\n    decrypted_msg = \"\"\n    for character in decrypted_msg:\n        if character in shifted_chars\n            char_index = find_in_list(character, shifted_chars)\n            new_char = chars[char_index]\n            decrypted_msg = decrypted_msg + new_char\n        else:\n            decrypted_msg = decrypted_msg + character\n\n\n# methods should return or print the new messages.\n############################################### Code starts from here ##################################################\nflag = True\nwhile flag == True\nchoice = input(\"What do you want to do? 1. Encrypt a message 2. Decrypt a message  Enter `e` or `d` respectively!\")",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "if choice = 'e':\n    plain_message = `input`(\"Enter message to encrypt??\")\n    encrypt_message(plain_message)\nelse choice = 'd':\n    encrypted_msg = `input`(\"Enter message to decrypt?\")\n    decrypt_message(encrypted_msg)\nelse\n    play_again = `input`(\"Do you want to try agian or Do you want to exit? (Y/N)\")\n    if play_again == 'Y'\n        continue\n    elif play_again == 'N':\n        break\n```\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4336",
+                "parent_exercise_id": "4320",
+                "course_id": "100",
+                "name": "Fight the Alien",
+                "slug": "MoreExercise__debugging-part3/debugging-question4_md",
+                "sequence_num": 104,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/debugging-part3/debugging-question4.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Iss game mein aap ek alien se fight karoge. Game mei alien ka stamina 10 se shuru hoga. Aapko uska stamina khatam karna hai yaani ki 0 karna hai. Aisa karne ke liye aap alien ke against in 4 options mei se koi option use kar sakte ho.\n\n\n\n1. Hit\n\n2. Attack\n\n3. Fight\n\n4. Run\n\n\n\nHit aur attack karne se alien ka stamina 0-9 ke beech kisse random number se kam hoga. Har bar stamina kam karne par `report()` se report aayegi jo alien ke stamina ke hisab se uski condition bateygi.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "from random import randint # allows you to generate a random number\n\n# variables for the alien\nalive = True\nstamina = 10\n\n# this function runs each time you attack the alien\ndef report(stamin):\n# syntactic error in if else statements\n    if s > 8:\n        print (\"The alien is strong! It resists your pathetic attack!\")\n    else: s > 5\n        print (\"With a loud grunt, the alien stands firm.\")\n    else s > 3:\n        print (\"Your attack seems to be having an effect! The alien stumbles!\")\n    else s > 0:\n        print (\"The alien is certain to fall soon! It staggers and reels!\")\n    else:\n        print (\"That's it! The alien is finished!\")\n\n# main function - accepts your input for fight with the alien\ndef fight(stam): # stamina\n    while stam < 0:\n      # won't enter this loop ever. The function will always return False.\n        response = input(\"> Enter a move 1.Hit 2.attack 3.fight 4.run\")\n        # chose a response from ( hit, attack, fight and run)\n        # fight scene\n        if \"hit\" in response or \"attack\" in response:\n            less = randint(0, stam)\n            stam -= less # subtract random int from stamina\n            report(stam) # see function above\n        elif \"fight\" in response:\n            print (\"Fight how? You have no weapons, silly space traveler!\")\n        elif \"run\" in response:\n            print (\"Sadly, there is nowhere to run.\"),\n            print (\"The spaceship is not very big.\")\n        else:\n            print (\"The alien zaps you with its powerful ray gun!\")\n            return True\n    return False\n\nprint (\"A threatening alien wants to fight you!\\n)\n# quotes at the end.\n\n# call the function - what it returns will be the value of alive\nalive = fight(stamina)\n\nif alive: # means if alive == True\n    print (\"\\nThe alien lives on, and you, sadly, do not.\\n\")\nelse:\n    print (\"\\nThe alien has been vanquished. Good work!\\n\")",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Iss program ko sahi kar ke `file` submit karo.\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4321",
+                "parent_exercise_id": "4321",
+                "course_id": "100",
+                "name": "Debugging Part 4",
+                "slug": "MoreExercise__debugging-part4/debugging-intro_md",
+                "sequence_num": 200,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/debugging-part4/debugging-intro.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Debugging\n\nAb iss part mein hum alag alag already likhe hue `code` ko debug kar ke sahi karenge :)\n\n"
+                    }
+                ]
+            },
+            {
+                "id": "4337",
+                "parent_exercise_id": "4321",
+                "course_id": "100",
+                "name": "Cipher 2.0",
+                "slug": "MoreExercise__debugging-part4/debugging-question1_md",
+                "sequence_num": 201,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/debugging-part4/debugging-question1.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Encrypt function ek message `input` leta hai aur firr uss message ko encrypt karta hai. Encrypt karne ke liye yeh har character ko 3 character aage wale character se change kar deta hai. Aisa karne ke liye yeh har character ki ascii value ko 3 se increase kar deta hai. Jaise:\n\n\n\n`v` ki ASCII value `118` hai, agar hum isse `3` se increase kar de `tab` yeh `121` ho jayegi. Jo ki 'y' ki ascii value hai. ASCII value nikalne ke liye hum ord() ka use karte hai. Aur ascii value ko `string` mei convert karne ke liye chr function ka use karte hai. Jaise:\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "ascii_value = ord(v) # 118\nstring_value = chr(ascii_value) # v",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "Decrypt function encrypt function ka ultaa hai. Yeh value ko 3 se incresae karne ki jagah 3 se kam kar deta hai.\n\n\n\nTopics covered\n\n\n\n* semantic/syntactic problems in if/else\n\n* problems in while `loop`\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "def encrypt():\n  message = input(\"Enter the message you want to encrypt\")\n  ascii_message = [ord(char)+3 for char in message]\n  encrypt_message = [ chr(char) for char in ascii_message]  \n  print (''.join(encrypt_message))\n\n\ndef decrypt():\n  message = input(\"Enter the message you want to decrypt\")\n  ascii_message = [ord(char) for char in message]\n  decrypt_message = [ chr(char) for char in ascii_message]  \n  print (''.join(decrypt_message))\n\nflag = True\nwhile flag == False\nchoice = input(\"What do you want to do? \\n1. Encrypt a message 2. Decrypt a message \\nEnter E or D respectively!\")\nif choice = 'e':\nencrypt()\nels choice = 'd':\n  decrypt()    \nelse\n    play_again = input(\"Do you want to try agian or Do you want to exit? (Y/N)\")\n    if play_again == 'Y'\n        continue\n    elif play_again == 'N':\n        break",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "4338",
+                "parent_exercise_id": "4321",
+                "course_id": "100",
+                "name": "Bagels",
+                "slug": "MoreExercise__debugging-part4/debugging-question2_md",
+                "sequence_num": 202,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/debugging-part4/debugging-question2.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "In this exercise, you\u2019ll learn a few new methods and functions that come with `Python`. You\u2019ll also learn about augmented assignment `operators` and `string` interpolation. These things don\u2019t let you do anything you couldn't do before, but they are nice shortcuts to make coding easier.\n\n\n\nBagels is a deduction game you can play with a friend. Your friend thinks up a random 3-digit number with no repeating digits, and you try to guess what the number is. After each guess, your friend gives you three types of clues:\n\n\n\n1. **Bagels** \u2013 None of the three digits you guessed is in the secret number.\n\n2. **Pico** \u2013 One of the digits is in the secret number, but your guess has the digit in the wrong place.\n\n3. **Fermi** \u2013 Your guess has a correct digit in the correct place.\n\n\n\nYou can get multiple clues after each guess. If the secret number is 456 and your guess is 546 the clues would be \u201cfermi pico pico\u201d. The 6 provides \u201cfermi\u201d and the 5 and 4 provide \u201cpico pico\u201d.\n\n\n\nTopics covered\n\n\n\n* function returning the wrong value\n\n* type`conversion` problems\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "import random\ndef getSecretNum(numDigits):\n# Returns a string that is numDigits long, made up of unique random digits.\n  numbers = list(range(10))\n  random.shuffle(numbers)\n  secretNum = ''\n  for i in range(numDigits):\n    secretNum += (numbers[i])\n  print (secretNum)\n\ndef getClues(guess, secretNum):\n# Returns a string with the pico, fermi, None clues to the user.\n  if guess == secretNum:\n    return 'You got it!'\n  clue = []\n  for i in range(len(guess)):\n    if guess[i] == secretNum[i]:\n      clue.append('Fermi')\n    elif guess[i] in secretNum:\n      clue.append('Pico')\n    if len(clue) == 0:\n      return 'None'\n  return ' '.join(clue)\n\ndef isOnlyDigits(num):\n# Returns True if num is a string made up only of digits. Otherwise returns False.\n  if num = '':\n    return False\n\n  for i in num:\n    if i not in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:\n      return False\n\ndef playAgain():\n# This function returns True if the player wants to play again, otherwise it returns False.\n  play = input(\"Do you want to play again? Yes or No?\") \n  return play.lower.startswith('y')\n\nNUMDIGITS = 3\nMAXGUESS = 10\n\nprint('I am thinking of a %s-digit number. Try to guess what it is.' % (NUMDIGITS))\nprint('Here are some clues:')\nprint('When I say:    That means:')\nprint('  Pico         One digit is correct but in the wrong position.')\nprint('  Fermi        One digit is correct and in the right position.')\nprint('  None       No digit is correct.')\n\nwhile True:\n  secretNum = getSecretNum(NUMDIGITS)\n  print('I have thought up a number. You have %s guesses to get it.' % (MAXGUESS))\n  numGuesses = 1\n  while numGuesses <= MAXGUESS:\n    while len(guess) != NUMDIGITS or not isOnlyDigits(guess):\n      print 'Guess' + (numGuesses)\n      guess = input(\"Guess Again\")\n\n    clue = getClues(guess, secretNum)\n    print(clue)\n    numGuesses += 1\n    if guess == secretNum:\n      break\n    if numGuesses < MAXGUESS:\n      print ('You ran out of guesses. The answer was ' + secretNum)\n  if not playAgain:\n    break\n    ",
+                            "testCases": []
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "4339",
+                "parent_exercise_id": "4321",
+                "course_id": "100",
+                "name": "Read the JSON",
+                "slug": "MoreExercise__debugging-part4/debugging-question3_md",
+                "sequence_num": 203,
+                "review_type": "manual",
+                "submission_type": null,
+                "github_link": "https://github.com/navgurukul/newton/tree/master/MoreExercise/debugging-part4/debugging-question3.md",
+                "solution": null,
+                "content": [
+                    {
+                        "type": "markdown",
+                        "value": "Iss program ko attempt karne ke liye pehle ek `users.json` naam ki `file` mein neeche diye hue text ko `save` karein.\n\n\n\n```json\n{\n    \"users\": [{\n            \"firstName\": \"vidur\",\n            \"lastName\": \"singla\",\n            \"details\": {\n                \"age\": 21,\n                \"mobileNo\": 1234567890,\n                \"City\": \"Delhi\"\n            }\n        },\n        {\n            \"firstName\": \"rishabh\",\n            \"lastName\": \"verma\",\n            \"details\": {\n                \"age\": 22,\n                \"mobileNo\": 12345678320,\n                \"City\": \"Chandigarh\"\n            }\n        },\n        {\n            \"firstName\": \"abhishek\",\n            \"lastName\": \"gupta\",\n            \"details\": {\n                \"age\": 25,\n                \"mobileNo\": 12332567890,\n                \"City\": \"Gurgaon\"\n            }\n        }\n    ]\n}\n```\nUske baad aapne jiss directory mein `users.json` `save` kiya hai, usse directory mein yeh `python` ka `code` `save` kariye ek dusri `file` mein.\n\n\n\n"
+                    },
+                    {
+                        "type": "python",
+                        "value": {
+                            "code": "import json\nwith open('user.json') as data_file:    \n    data = json.load(data_file)\n\nusers = data['users']\n\nfor user in data:\n  counter = 0\n  print (\"users full name is \" + user['firstName'] + ' ' + user['lastName'])\n  while counter < len(user['details']):\n    print (\"users mobile number is \" + user['details'][counter]['mobileNo'])\n    print (\"users age  is \" + user['details'][counter]['age'])\n    print (\"users city is \" + user['details'][counter]['city'])",
+                            "testCases": []
+                        }
+                    },
+                    {
+                        "type": "markdown",
+                        "value": "`users.json` `file` mein users ka data padha hai. Yeh program `users.json` `file` ko read kar kar usmein se users ka data print karega. Iss `file` ko debug kar kar run karo.\n\n\n\nTopics covered:\n\n\n\n* `Key` `error`\n\n* `loop` iterates over the wrong list.\n\n"
+                    }
+                ]
+            }
+        ]
+    }
+}
